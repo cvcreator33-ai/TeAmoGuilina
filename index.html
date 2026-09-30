@@ -430,9 +430,10 @@
       <div class="chat-header">
         <span class="flex-1 text-left">Osito <span id="displayBearName"></span> 🧸</span>
         <div class="header-actions">
-          <svg onclick="openGameModal()" class="chat-icon-btn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 12h4"/><path d="M8 10v4"/><circle cx="15" cy="13" r="1"/><circle cx="18" cy="11" r="1"/></svg>
-          <svg onclick="closeChat()" class="chat-icon-btn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-        </div>
+          <button onclick="openGameMenu()" class="bg-white text-rose-500 px-4 py-1 rounded-full font-bold text-sm shadow-sm hover:scale-105 transition-transform flex items-center gap-1 active:scale-95">
+            🎮 Jugar
+          </button>
+          <svg onclick="closeChat()" class="chat-icon-btn text-white" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></div>
       </div>
       <div class="chat-body" id="chatBody">
         <!-- Messages will appear here -->
@@ -1010,3 +1011,4 @@ REGLAS ESTRICTAS E IMPORTANTES:
   </script>
 </body>
 </html>
+
